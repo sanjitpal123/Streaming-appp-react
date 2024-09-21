@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 function HomePageDataDisplay() {
   const [Data, SetData] = useState([]);
   const SideBarClickedText = useSelector((state) => state.sidebar.clicked);
-
+console.log(SideBarClickedText)
   useEffect(() => {
     if (SideBarClickedText === 'Home') {
       Fetching();

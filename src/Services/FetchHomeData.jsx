@@ -12,8 +12,8 @@ async function FetchHomePageData() {
             params: {
                 key: Api_Key, 
                
-                part: 'snippet,statistics', 
-                chart: 'mostPopular',
+                part:'snippet,statistics', 
+                chart:'mostPopular',
                 maxResults:90
             }
         });
